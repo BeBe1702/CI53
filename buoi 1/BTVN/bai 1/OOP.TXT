@@ -1,0 +1,38 @@
+* Lập trình hướng đối tượng (OOP) là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đối tượng trong code 
+trừu tượng hóa các đối tượng.
+Một đối tượng bao gồm 2 thông tin: thuộc tính và phương thức.
+
+ Thuộc tính chính là những thông tin, đặc điểm của đối tượng. 
+Ví dụ: con người có các đặc tính như mắt, mũi, tay, chân…
+ Phương thức là những thao tác, hành động mà đối tượng đó có thể thực hiện. 
+Ví dụ: một người sẽ có thể thực hiện hành động nói, đi, ăn, uống, . . .
+
+Một lớp là một kiểu dữ liệu bao gồm các thuộc tính và các phương thức được định nghĩa từ trước. Đây là sự trừu 
+tượng hóa của đối tượng. Khác với kiểu dữ liệu thông thường, một lớp là một đơn vị (trừu tượng) bao gồm sự kết hợp
+giữa các phương thức và các thuộc tính. Hiểu nôm na hơn là các đối tượng có các đặc tính tương tự nhau được gom lại
+thành một lớp đối tượng.
+Khi bắt đầu xây dựng ứng dụng chúng ta sẽ bắt đầu thiết kế định nghĩa các lớp trước. Thông thường một số lớp có 
+quan hệ với những lớp khác, chúng có những đặc tính giống nhau.
+
+4 nguyên lý cơ bản 
+- Tính đóng gói (Encapsulation) :
++ Các dữ liệu và phương thức có liên quan với nhau được đóng gói thành các lớp để tiện cho việc quản lý và sử dụng. 
+Tức là mỗi lớp được xây dựng để thực hiện một nhóm chức năng đặc trưng của riêng lớp đó.
++ Ngoài ra, đóng gói còn để che giấu một số thông tin và chi tiết cài đặt nội bộ để bên ngoài không thể nhìn thấy.
+Ví dụ : Máy vi tính có các đặc tính như chiều dài chiều rộng màu sắc, nhưng ta ko thể biết cụ thể con chip bên 
+trong hoạt động như nào
+- Tính kế thừa (Inheritance)
++ Nó cho phép xây dựng một lớp mới dựa trên các định nghĩa của lớp đã có. Có nghĩa là lớp cha có thể chia sẽ dữ liệu 
+và phương thức cho các lớp con. Các lớp con khỏi phải định nghĩa lại, ngoài ra có thể mở rộng các thành phần kế 
+thừa và bổ sung thêm các thành phần mới. Tái sử dụng mã nguồn 1 cách tối ưu, tận dụng được mã nguồn. Một số loại kế
+thừa thường gặp: đơn kế thừa, đa kế thừa, kế thừa đa cấp, kế thừa thứ bậc.
+Ví dụ : lớp cha : con người, lớp con : nam, nữ, 3d ,... 
+- Tính đa hình (Polymorphism)
++ Tính đa hình là một hành động có thể được thực hiện bằng nhiều cách khác nhau. Đây lại là một tính chất có thể nói
+là chứa đựng hầu hết sức mạnh của lập trình hướng đối tượng.
+Ví dụ : Để chữa bệnh thì chúng ta có thể dùng thuốc hoặc dùng liệu pháp 
+- Tính trừu tượng (Abstraction)
++ Trừu tượng có nghĩa là tổng quát hóa một cái gì đó lên, không cần chú ý chi tiết bên trong. Nó không màng đến chi 
+tiết bên trong là gì và người ta vẫn hiểu nó mỗi khi nghe về nó.
+Ví dụ : Khi quản lý sinh viên thì chỉ quan tâm họ tên, ngày sinh, quê quán, giới tính chứ ko cần quan tâm câng nặng 
+chiều cao, ...
