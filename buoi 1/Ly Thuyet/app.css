@@ -1,0 +1,58 @@
+/*
+    selector 
+*/
+
+* {
+    font-family : Arial, Helvetica, sans-serif ;
+}
+
+#troll {
+    height : 90% ; 
+    width : 700px; 
+     margin: auto;
+
+}
+#question {
+    width : 700px ;
+    height : 300px ;
+    font-size: 30px;
+    color : #ffffff ;
+    margin: auto;;
+    background-color: black;
+    border-radius : 10px ;
+    display: flex; 
+    justify-content: center;
+    align-items : center ;
+/*
+    justify content căn theo chiều flex-direction
+    align-items căn theo chiều vuông góc flex-direction
+*/
+    
+}
+#answers {
+    display : flex ;
+    justify-content: space-between;
+} 
+#answers > div {
+    width:300px ;
+    height : 200px ; 
+    border-radius: 10px;
+    display : flex ; 
+    justify-content: center;
+    align-items: center;
+    font-size : 30px ;
+    color :#ffffff ;
+}
+
+#yes {
+    background-color:  #2eac62;
+
+}
+
+#no {
+    background-color: #705db6;
+}
+
+.reverse {
+    flex-direction : row-reverse ; 
+}
