@@ -43,7 +43,7 @@ class Book {
     };
 
     update(data) {
-
+        this = data ; 
     }
 }
 
